@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>푸딩팩토리 > 로그인 페이지</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+                                font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="/Fooding/reset.css">
+    <link rel="stylesheet" href="/Fooding/login.css"">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 로그인 섹션 -->
+        <section class="login-section">
+                <form class="logform" action="#" method="get">
+                    <h3 class="h-member">로그인</h3>
+                    <ul class="input_icon">
+                        <li>
+                            <input class="common" type="email" id="usermail" title="이메일" placeholder="ID">
+                        </li>
+                        <li>
+                            <input class="common" type="password" id="userpw" title="비밀번호" placeholder="PASSWORD">
+                        </li>
+                        <li>
+                            <input class="check" type="checkbox" id="idsaver">
+                            <label for="idsaver">아이디저장</label>
+                            <input class="check" type="checkbox" id="autologin">
+                            <label for="autologin">자동로그인</label>
+                        </li>
+                        <li class="log_btn">
+                            <button class="common" type="submit" title="로그인 버튼">로그인</button>
+                        </li>
+                    </ul>
+                    <ul class="find_id">
+                        <li>아이디 찾기</li>
+                        <li>비밀번호 찾기</li>
+                        <li>회원가입</li>
+                    </ul>
+                </form>
+                <!-- sns 간편 로그인 링크 박스 -->
+                <fieldset class="snsform">
+                    <legend title="SNS 간편 로그인박스"> SNS 간편 로그인 </legend>
+                    <ul class="sns_icon">
+                        <li>
+                            <a class="kakao" href="https://www.kakaotalk.com" target="_blank" title="카카오톡 바로가기">
+                                <i class="fa-brands fa-kakao-talk"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="facebook" href="https://www.facebook.com" target="_blank" title="페이스북 바로가기">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="google" href="https://www.google.com" target="_blank" title="구글 바로가기">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="apple" href="https://www.apple.com" target="_blank" title="애플 바로가기">
+                                <i class="fa-brands fa-apple"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </fieldset>
+                <form class="orderform" action="#" method="post">
+                    <h5 class="h-guest">비회원 주문조회</h5>
+                    <ul class="input_icon">
+                        <li>
+                            <input class="common" type="text" id="ordername" title="주문자명" placeholder="주문자명">
+                        </li>
+                        <li>
+                            <input class="common" type="text" id="ordernum" title="주문번호" placeholder="주문번호">
+                        </li>
+                        <li class="confirm_btn">
+                            <button class="common" type="submit" title="확인 버튼">확인</button>
+                        </li>
+                        <li class="script">주문번호와 비밀번호를 잊으신 경우, 고객센터로 문의하여 주시기 바랍니다.</li>
+                    </ul>   
+                </form>
+            </section>
+            <section class="ad-section">
+                <ul class="imgul">
+                    <li>
+                        <img src="images/coupon.jpg">
+                    </li>
+                    <li>
+                        <img src="images/busniesssupporter.jpg">
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </body>
+</html>

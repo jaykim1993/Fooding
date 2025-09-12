@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+.container{
+            width: 1000px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            padding: 150px 0;
+        }
+        .login-section{
+            width: 500px;
+        }
+        .login-section .logform, .snsform, .orderform{
+            padding: 30px 0;
+        }
+        .login-section .logform .h-member{
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        .login-section .orderform .h-guest{
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .login-section li .common{
+            display: block;
+            width: 500px;
+            padding: 20px 20px;
+            border-radius: 10px;
+            margin: 10px 0;
+            border: none;
+        }
+        .login-section .logform .input_icon input[type='email'],
+        .login-section .logform .input_icon input[type='password'],
+        .login-section .orderform .input_icon input[type='text']{
+            background-color: #c9c9c9a2;
+        }
+        .login-section li label{
+            margin-left: 4px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .login-section .logform .input_icon .log_btn > button{
+            color: #f2f2f2;
+            background-color: rgba(106, 142, 35, 0.651);
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .login-section .logform .find_id,
+        .login-section .snsform .sns_icon{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .login-section .logform .find_id li{
+            color: #777;
+            margin-bottom: 50px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .login-section .logform input[type="checkbox"] {
+            width: 15px;
+            height: 15px;
+            accent-color: olivedrab;
+        }
+        .login-section .snsform > input {
+            display: block;
+            width: 100%;
+        }
+        .login-section .snsform{
+            border: none;
+            text-align: center;
+            padding: 1em;
+            background-color: #f1f9eb;
+            border: 1px solid rgba(106, 142, 35, 0.63);
+            border-radius: 10px;
+            min-width: 0;
+            margin-bottom: 20px;
+        }
+        .login-section .snsform .sns_icon i{
+            font-size: 50px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .login-section .snsform .sns_icon .kakao{
+            color: rgba(220, 225, 0);
+        }
+        .login-section .snsform .sns_icon .facebook{
+            color: rgba(8, 102, 255);
+        }
+        .login-section .snsform .sns_icon .google{
+            color: rgba(66, 133, 244);
+        }
+        .login-section .snsform .sns_icon .apple{
+            color: rgba(255, 0, 0, 0.795);
+        }
+        .login-section .orderform  .input_icon .confirm_btn > button{
+            color: olive;
+            background-color: white;
+            border: 1px solid olivedrab;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .login-section .orderform .script{
+            font-size: 12px;
+            color: #444;
+            text-align: center;
+        }
+        .ad-section{
+            width: 400px;
+        }
+        .ad-section img{
+            width: 400px;
+            margin-bottom: 50px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+        .login-section li .common:hover{
+            box-shadow: 0 0 5px rgba(128, 128, 0, 0.627);
+        }
+        .login-section .logform  .input_icon .log_btn > button:hover{
+            font-weight: bold;
+            background-color: olive;
+        }
+        .login-section .logform .find_id li:hover{
+            text-decoration: underline;
+        }
+        .login-section .orderform  .input_icon .confirm_btn > button:hover{
+            background-color: olive;
+            color: #f2f2f2;
+        }
+        .login-section .logform .input_icon input[type='email']:focus,
+        .login-section .logform .input_icon input[type='password']:focus,
+        .login-section .orderform .input_icon input[type='text']:focus{
+            box-shadow: 0 0 5px rgba(128, 128, 0, 0.627);
+        }
+        legend, label{
+            color: #444;
+        }

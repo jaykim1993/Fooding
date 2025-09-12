@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>푸딩팩토리 > 튀김</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="/Fooding/reset.css">
+    <link rel="stylesheet" href="/Fooding/Index.css">
+</head>
+<body>
+    <!-- 전체 컨테이너 -->
+    <div id="whole-wrap">
+        <!-- 해더 -->
+        <header id="header">
+            <!-- 해더 상단 -->
+            <div class="htop">
+                    <ul class="login-htop">
+                        <li>
+                            <span id="login1">로그인</span>
+                        </li>
+                        <li>
+                            <span id="member1">회원가입</span>
+                        </li>
+                        <li>
+                            <span id="order1">주문조회</span>
+                        </li>
+                        <li>
+                            <span id="custo1">고객센터</span>
+                        </li>
+                    </ul>
+             </div>
+            <!-- 해더 중간 -->
+            <div class="hcenter">
+                <a href="Index.html">
+                    <i class="fa-brands fa-the-red-yeti"></i>
+                </a>
+                <a href="Index.html">
+                    <ul class="logotext-hcenter">
+                        <li class="a"><b>FOODING</b></li>
+                        <li class="a">FACTORY</li>
+                    </ul>
+                </a>
+                <!-- 인풋박스 -->
+                <form class="input-hcenter" action="#" method="get">
+                    <input type="text" class="inptxt" name="search" id="search" placeholder="Search products & recipies"> 
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <ul class="btn-hcenter">
+                    <li>
+                        <i class="fa-regular fa-user"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-truck"></i>
+                    </li>
+                </ul>
+            </div>
+            <!-- 해더 하단 -->
+            <div class="hbtm">
+                <ul class="content1-hbtm">
+                    <li class="category-hbtm">
+                        <span>
+                            <i class="fa-solid fa-list"></i> 카테고리
+                        </span>
+                    </li>
+                    <ul class="list-hbtm">
+                    <li><span>신상품</span></li>
+                    <li><span>베스트</span></li>
+                    <li><span>할인특가</span></li>
+                    <li><span class="new">출시예정</span></li>
+                    <li><span>입점브랜드</span></li>
+                    <li><span>이벤트</span></li>
+                    <li><span>레시피</span></li>
+                    </ul>
+                </ul>
+                <ul class="content2-hbtm">
+                    <li># 디자인센터</li>
+                </ul>
+            </div>
+        </header>
+        <hr>
+        <!-- 해더 끝 -->
+         <!-- 바디 시작 -->
+        <div id="body">
+            <!-- 바디 왼측 사이드 -->
+            <nav class="side">
+                <h2 class="title-side">튀김 / 치킨</h2>
+                <div class="frame-side">
+                <!-- 사이드 첫번째 섹션 -->
+                    <ul class="list-side">
+                        <li>
+                            <h4>카테고리</h4>
+                        </li>
+                        <li>
+                            <span><b>튀김 / 치킨</b></span>
+                            <ul class="list-side-dep2">
+                                <li><span>치킨</span></li>
+                                <li><span>돈까스 / 탕수육 / 까스류</span></li>
+                                <li><span>감자튀김 / 농산물튀김</span></li>
+                                <li><span>새우 / 오징어 / 해물튀김</span></li>
+                                <li><span>치즈스틱 / 치즈볼 / 고로케</span></li>
+                                <li><span>이색튀김 / 전류</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- 사이드 두번째 섹션 -->
+                    <ul class="list-side">
+                        <li><span>푸딩트랩</span></li>
+                        <li><span>소분팩 / 소재 전용관</span></li>
+                        <li><span>국물요리</span></li>
+                        <li><span>구이 / 볶음</span></li>
+                        <li><span>떡볶이 / 분식</span></li>
+                        <li><span>피자</span></li>
+                        <li><span>즉석 간편식</span></li>
+                        <li><span>샤베트 / 유제품</span></li>
+                        <li><span>밀키트 / 반찬</span></li>
+                        <li><span>베이커리 / 디저트</span></li>
+                        <li><span>마른 안주 / 스낵</span></li>
+                        <li><span>소스 / 시즈닝</span></li>
+                        <li><span>정육 / 육가공</span></li>
+                        <li><span>농수산 가공</span></li>
+                        <li><span>커피 / 음료 베이스</span></li>
+                        <li><span>배달 / 매장 비품</span></li>
+                        <li><span>무인머신</span></li>
+                    </ul>
+                    <!-- 사이드 세번째 섹션 -->
+                    <ul class="list-side">
+                        <li>
+                            <h4>정렬방식</h4>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="추천수">
+                            <label for="추천수">추천수</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="판매인기순">
+                            <label for="판매인기순">판매인기순</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="낮은가격순">
+                            <label for="낮은가격순">낮은가격순</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="높은가격순">
+                            <label for="높은가격순">높은가격순</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="상품평순">
+                            <label for="상품평순">상품평순</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="등록일순">
+                            <label for="등록일순">등록일순</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="평점순">
+                            <label for="평점순">평점순</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="유관순">
+                            <label for="유관순">유관순</label>
+                        </li>
+                    </ul>
+                    <!-- 사이드 네번째 섹션 -->
+                    <ul class="list-side">
+                        <li>
+                            <h4>가격</h4>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="1">
+                            <label for="1">1만원 이하</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="2">
+                            <label for="2">1-2만원</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="3">
+                            <label for="3">2만원 이상</label>
+                        </li>
+                    </ul>
+                    <!-- 사이드 다섯번째 섹션 -->
+                    <ul class="list-side5">
+                        <li>
+                            <h4>보관방법</h4>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="18">
+                            <label for="18">(-18°C 이하)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="10">
+                            <label for="10">(0 ~ 10°C)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="25">
+                            <label for="25">(15 ~ 25°C)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="35">
+                            <label for="35">실온(1 ~ 35°C)</label>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- 바디 중간 메인 -->
+            <section class="main-wrap">
+                <div class="main-top">
+                    <h3>HOME >
+                        <b>튀김 / 치킨</b>
+                    </h3>
+                    <ul class="main-top-foot">
+                        <li>
+                            <span>총 <b>192</b>개 상품
+                        </li>
+                    </ul>
+                </div>
+                <div class="selectboxwrap">
+                    <button class="selectbox">모아보기 ▼</button>
+                        <ul class="listbox">
+                            <li>
+                                <button class="list">40개씩보기</button>
+                            </li>
+                            <li>
+                                <button class="list">60개씩보기</button>
+                            </li>
+                            <li>
+                                <button class="list">80개씩보기</button>
+                            </li>
+                        </ul>
+                </div>
+                <ul class="main">
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/1-chips.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>[감자튀김]모듬감자 450g</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd>
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <span class="percent">18%</span>
+                                <span class="price">44,300</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/2-chips.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>[대용량 감자튀김] (맥케인) 양념감자(시즌드배터드 후라이스) 2kg</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>13,900원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">7,200</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/3-squid.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>[10%할인] 튀김용 불꽃 통오징어(3마리) 750g</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <dd class="cancel">
+                                <span>22,000원</span>
+                            </dd>
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <span class="percent">10%</span>
+                                <span class="price">19,800</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/4-squid.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>[재입고! 5%할인] 튀김용 통살오징어다리(5족) 1kg</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <dd class="cancel">
+                                <span>19,900원</span>
+                            </dd>
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <span class="percent">18%</span>
+                                <span class="price">44,300</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/1-chips.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>사세 버팔로윙 1kg_단종</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">18,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/6-chick.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>사세 순살치킨가라게 1kg</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">14,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/7-egg.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>달콤치즈볼 750g</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">16,500</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/8-pork.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>수제 통등심 돈까스 520g(130g x 4ea)</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">12,500</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/9-bong.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>사세 버탈로윙스틱 1kg_단종</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">14,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/10-sweepo.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>고구마 빅치즈스틱(100g x 10ea)</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">21,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/11-chickass.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>닭똥집후라이드 1kg</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">12,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/12-taiwan.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>대만식 우유튀김 1kg</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">18,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/16.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>[감자튀김]팜프리츠 FINEST 스킨온 레귤러컷(스트레이트컷) 2kg</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">10,500</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/14-chicken.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>옛날통닭 600g x 2팩(6호)_(보냉팩set)_옛날치킨,시장통닭</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">19,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/15-fkfk.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>[감자튀김]팜프리츠FINEST슈스트링_후렌치후라이 2kg</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">10,500</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/13-crispy.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>크리스피 닭껍질튀김 1kg_중량,맛up!</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">9,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/17.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>크리스피 치킨가라아게 1kg_시세</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">13,500</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/18.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>순살 등심 왕돈까스 2.7kg</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">39,800</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/19.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>멘보샤_중국식 새우토스트 600g(30g x 20ea)</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">16,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/20.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>케이준치킨텐더 1kg</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">13,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/21.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>대왕 깐쇼새우 1kg_사이즈 실한 새우튀김!</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">24,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/22.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>[감자튀김 대용량] (심플도트) 포테이토 칩스 2kg_일명 리얼감자칩]</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">13,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/23.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>한입치킨 데리야끼맛 180g_렌지용 양념치킨, 편의점, 마트, PC방 인기</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">4,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <!-- 음식 사진 -->
+                        <div class="images-main">
+                            <img src="images/24.jpg" alt="#">
+                            <button class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- 상품 정보-->
+                        <ul class="company">
+                            <li>
+                                <span>푸딩팩토리</span>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>한입치킨 양념치킨맛 180g_렌지용 양념치킨, 편의점, 마트, PC방 인기</dt>
+                            <!-- 기존가; 상품별 선택 적용★ -->
+                            <!-- <dd class="cancel">
+                                <span>54,500원</span>
+                            </dd> -->
+                            <dd>
+                                <!-- 할인율; 상품별 선택 적용★ -->
+                                <!-- <span class="percent">18%</span> -->
+                                <span class="price">4,900</span>
+                            </dd>
+                        </dl>
+                    </li>
+            </section>
+        </div>
+        <!-- 바디 끝 -->
+        <!-- 풋터 시작 -->
+        <footer id="footer">
+            <div class="ftop">
+                <!-- 풋터 상단 좌측 -->
+                <ul class="company-ftop">
+                    <li><span>회사소개</span></li>
+                    <li><span>·</span></li>
+                    <li><span>이용약관</span></li>
+                    <li><span>·</span></li>
+                    <li><span>쇼핑몰 이용안내</span></li>
+                    <li><span>·</span></li>
+                    <li><span>개인정보처리방침</span></li>
+                </ul>
+                <!-- 풋터 상단 우측 -->
+                <ul class="info-ftop">
+                    <li><i class="fa-solid fa-location-dot"></i><span>입점매장 안내</span></li>
+                    <li><i class="fa-solid fa-handshake"></i><span>상품제휴</span></li>
+                    <li><i class="fa-solid fa-boxes-stacked"></i><span>입점신청</span></li>
+                    <li><i class="fa-solid fa-camera-retro"></i><span>촬영·디자인 의뢰</span></li>
+                </ul>
+            </div>
+            <div class="fbtm">
+                <ul class="intro">
+                    <h5 class="h-intro">
+                        ㈜ 김대표 플레이그라운드
+                    </h5>
+                    <li>대표 : 김성중 사업자 등록번호 : 132-86-30090통신판매업  신고 : 제2017-별내-0243호 [사업자정보확인]</li>
+                    <li>본사 : 경기도 남양주시 송산로339번길 4-16 2,3층    물류 : 경기도 남양주시 진건읍 독정로성지2길 36-11 (진건읍)</li>
+                    <li>고객센터 : 1599-7988     팩스 : 031-575-1722      개인정보관리책임자 : 김성중     Hosting by NHNGODO</li>
+                    <li>>Copyright 2014. www.foodingfactory.com All rights reserved.</li>
+                </ul>
+                <ul class="extra">
+                    <li>
+                        <ul class="call">
+                            <li class="h-call">고객상담센터</li>
+                            <li class="h-num">1599-7988</li>
+                            <li class="h-btn"><button type="button">1:1문의하기</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> 
+                        <ul class="hour">
+                            <li>평일 10:00 ~ 17:00 (점심시간 12:00 ~ 13:00)</li>
+                            <li>주말·공휴일 휴무</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="bank">
+                            <li>무통장 입금안내</li>
+                            <li class="h-btn"><button type="button">은행별 계좌번호</button></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- 우하단 도움 버튼 -->
+            <div class="fixed">
+                <a href="#header" class="btn-top">
+                    <ul>
+                        <li>▲</li>
+                        <li>TOP</li>
+                    </ul>
+                </a>
+                <div class="askanybtn">
+                    <i class="fa-solid fa-comment"></i>
+                </div>
+                <div class="askany">
+                    <span>도움이 필요한가요?</span>
+                </div>
+            </div>
+        </footer>
+        <!-- 풋터 끝 -->
+         <!-- 스크립트 시작 -->
+         <script>
+                document.getElementById('login1').addEventListener('click', function(){
+                loadPage('login.html'); // 로그인 페이지 경로
+                })
+                document.getElementById('member1').addEventListener('click', function(){
+                loadPage('login.html'); // 로그인 페이지 경로
+                })
+                document.getElementById('order1').addEventListener('click', function(){
+                loadPage('login.html'); // 로그인 페이지 경로
+                })
+                document.getElementById('custo1').addEventListener('click', function(){
+                loadPage('login.html'); // 로그인 페이지 경로
+                })
+                // 로드 페이지 함수를 공통으로 작성
+                function loadPage(url){
+                    fetch(url)
+                    .then((response) => response.text())
+                    .then((data) => {
+                        document.getElementById('body').innerHTML=data;
+                    })
+                }
+        </script>
+    </div>
+    <!-- 전체 컨테이너 끝 -->
+</body>
+</html>

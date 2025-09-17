@@ -522,6 +522,7 @@ body .main-wrap .main li dl dt:hover{
 .askanybtn:hover{
     background-color: olivedrab;
 }
+.askanybtn:focus + .askany, 
 .askanybtn:hover + .askany{
     box-shadow: 0 0 10px rgba(128, 128, 0, 0.627);
     display: block;
